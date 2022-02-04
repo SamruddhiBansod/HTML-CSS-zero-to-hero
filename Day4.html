@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up for Community Classroom</title>
+    <style>
+        body {
+            background-color: cornflowerbluess; 
+        }
+
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+       
+        header {
+            border: 1px solid black;
+            border-top: 5px solid rgb(5, 38, 82);
+            border-left: 5px solid green;
+            padding: 10px;
+            margin-top: 1%;
+            width: 70%;
+            margin-left: 2%;
+        }
+        .submit,.reset
+        {
+            margin-left:18%;
+            width:15%;
+            border-radius: 10px;
+        }
+      .submit:hover,.reset:hover
+      {
+          background-color: black;
+          color:white;
+      }
+
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Signup for Community Classroom</h1>
+    </header>
+    <form action="">
+        <div class="box">
+            <p><b>Name</b></p>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        </div>
+        <div class="box">
+            <p><b>Email Id:</b></p>
+            <input type="email" name="email" id="email" placeholder="Enter Email-id">
+        </div>
+        <div class="box">
+            <p><b>Organisation:</b><sup>*</sup></p>
+            <input type="text" name="org" id="org" placeholder="Enter Organisation Name">
+        </div>
+        <div class="box">
+            <p>Date of Event</p>
+            <input type="date" name="date" id="date">
+            
+        </div>
+
+        <div class="box">
+            <p><b>Start Timing</b></p>
+            <input type="time" name="stime" id="stime">
+            <p><b>End Timing</b></p>
+            <input type="time" name="etime" id="etime">
+        </div>
+        
+        <div class="box">
+            <p><b>Type of course you to enroll:</b></p>
+         <select name="type" id="type">
+            <option value=""><b>---Choose Type of Event---</b></option>
+             <option value="sa"><Html></Html></option>
+             <option value="festival">CSS</option>
+             <option value="Club">JS</option>
+             <option value="Film">Bootstrap</option>
+         </select>
+        </div>
+
+       <br>
+       <div class="lastbutt">
+        <input type="submit" value="Click to submit" class="submit">
+        <input type="reset" value="Click to reset" class="reset">
+       </div>
+
+    </form>
+</body>
+</html>
